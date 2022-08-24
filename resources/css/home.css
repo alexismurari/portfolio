@@ -23,6 +23,12 @@
     text-align: center;
 }
 
+.gridelement{
+    margin: 20px;
+    display: inline-block;
+    height: auto;
+}
+
 div{
     position: relative;
     text-align: center;
@@ -78,11 +84,6 @@ body{
 .social{
     max-width: 80px;
     border-radius: 100%;
-}
-
-.gridelement {
-    margin: 20px;
-    display: inline-block;
 }
 
 .text_proj{
