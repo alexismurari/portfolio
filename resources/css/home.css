@@ -14,20 +14,17 @@
 .card {
     margin-right: auto;
     margin-left: auto;
-    width: 600px;
+    padding-top: 8px;
+    width: 420px;
     box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
-    height: 300px;
+    height: auto;
     backdrop-filter: blur(4px);
     background-color: rgba(255, 255, 255, 0.1);
-    padding: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 div{
     position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 10px;
     text-align: center;
 }
 
@@ -42,23 +39,82 @@ div{
     margin-top: 50px;
 }
 
-h5{
-    text-align: center;
+h1{
+    font-weight: normal;
+    font-size: 2.75rem; 
+}
+
+h2{
     margin-top: 10px;
-    display: block;
+}
+
+h5{
+    margin-top: 10px;
     font-size: 1.25rem;
-    font-weight: 500;
+    margin-block-start: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     font-weight: bold;
+}
+
+h1, h2, h5{
+    text-align: center;
+    display: block;
     line-height: 1.2;
+    font-family: Jost, sans-serif;
 }
 
 body{
     text-align: center;
     color: #212529;
-    font-family: Jost, sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
 
-img {
-    max-width: 10%;
+#pic {
+    max-width: 200px;
     border-radius: 50%;
   }
+
+.social{
+    max-width: 80px;
+    border-radius: 100%;
+}
+
+.gridelement {
+    margin: 20px;
+    display: inline-block;
+}
+
+.text_proj{
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+#experience{
+    padding-bottom: 50px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: Jost, sans-serif;
+  }
+  
+.button {
+    background-color: #4CAF50; 
+    color: #212529;
+    border: 2px #009000;
+    border-radius: 10px;
+  }
+  
+.button:hover {
+    background-color: #008000;
+    color: white;
+ }

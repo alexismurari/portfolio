@@ -9,17 +9,55 @@
 <body>
     <div id="main">
         <canvas id="canvas1"></canvas>
-        <script src="background.js"></script>
+        <script src="resources/js/background.js"></script>
         <div id="content">
-            <img src="resources/image/LinkedIn Pic.jpg" alt="Avatar">
-            <h1>Alexis Murari</h1>
-            <div class="card">
-                <h5>Computer Engineer Intern</h5>
-                • Performed research to evaluate the use of hardware components to perform precise tracking for VR use <br>
-                • Tested the components in terms of their latency, performance, and accuracy <br>
-                • Developed a solution for faster extraction of 3D points after pose estimation <br>
-                • Actively participated with the research team to optimize and find better solutions to make the attractions more user-friendly. <br>
-                • Resolved Hardware and Software issues of several devices/components used in the Park. <br>
+            <img src="resources/image/LinkedIn Pic.jpg" alt="Avatar" id="pic">
+            <h1>Alexis <b>Murari</b></h1>
+            <div>
+                <a href="https://github.com/alexismurari" target="_blank"><img src="resources/image/git.png" alt="Avatar" class="social"></a>
+                <a href="https://www.linkedin.com/in/alexismurari/" target="_blank"><img src="resources/image/linkedin.png" alt="Avatar" class="social"></a>
+                <a href="mailto:alexismurari@hotmail.com"><img src="resources/image/mail.png" alt="Avatar" class="social"></a>
+            </div>
+
+            <h2>Experience</h2>
+            <div id="experience">
+                <div class="card">
+                    <h5>Computer Engineer Intern</h5>
+                    <div class="text_proj">
+                        Summer 2021 - Mouscron Belgium <br>
+                        <button class="button">More Details</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="grid">
+                <div class="card gridelement">
+                    <h5>VideoEditScheduler</h5>
+                    <div class="text_proj">
+                        Python <br>
+                        <button class="button">GitHub</button>
+                        <button class="button">More Details</button>
+                    </div>
+                </div>
+
+                <div class="card gridelement">
+                    <h5>Planner & Exploration Tool (PET)</h5>
+                    <div class="text_proj">
+                        Web App<br>
+                        <button class="button">GitHub</button>
+                        <button class="button">More Details</button>
+                    </div>
+
+                </div>
+
+                <div class="card gridelement">
+                    <h5>DICOM Classifier for Automated Labelling</h5>
+                    <div class="text_proj">
+                        Capstone/Thesis <br>
+                        <button class="button">More Details</button>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
